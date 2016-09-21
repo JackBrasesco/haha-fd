@@ -15,10 +15,10 @@ setInterval(function() {
     $("#border-blinker").css({border: "5px solid white"});
     borderIsBlue = false;
   } else {		
-    $("#border-blinker").css({border: "5px solid yellow"});	
+    $("#border-blinker").css({border: "5px solid blue"});	
     borderIsBlue = true;
   }	
-}, 1000000)
+}, 1000)
 
 var textIsBlue = false
 setInterval(function() {
@@ -26,7 +26,7 @@ setInterval(function() {
     $("#text-blinker").css({text: "white"});
     textIsBlue = false;
   } else {		
-    $("#text-blinker").css({text: "red"});	
+    $("#text-blinker").css({text: "blue"});	
     textIsBlue = true;
   }	
 }, 100)
