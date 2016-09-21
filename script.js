@@ -23,10 +23,10 @@ setInterval(function() {
 var textIsBlue = false
 setInterval(function() {
   if (textIsBlue) {
-    $("#border-blinker").css({border: "5px solid white"});
+    $("#text-blinker").css({text: "5px solid white"});
     textIsBlue = false;
   } else {		
-    $("#border-blinker").css({border: "5px solid yellow"});	
+    $("#text-blinker").css({text: "5px solid yellow"});	
     textIsBlue = true;
   }	
-}, 1000000)
+}, 100)
