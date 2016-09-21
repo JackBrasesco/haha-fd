@@ -7,7 +7,7 @@ setInterval(function() {
     $("#blue-blinker").css({background: "blue"});	
     backgroundIsBlue = true;
   }	
-}, 500)
+}, 1)
 
 var borderIsBlue = false
 setInterval(function() {
