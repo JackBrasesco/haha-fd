@@ -12,10 +12,21 @@ setInterval(function() {
 var borderIsBlue = false
 setInterval(function() {
   if (borderIsBlue) {
-    $("#border-blinker").css({border: "white"});
+    $("#border-blinker").css({border: "5px solid white"});
     borderIsBlue = false;
   } else {		
-    $("#border-blinker").css({border: "blue"});	
+    $("#border-blinker").css({border: "5px solid yellow"});	
     borderIsBlue = true;
   }	
-}, 100)
+}, 1000000)
+
+var textIsBlue = false
+setInterval(function() {
+  if (textIsBlue) {
+    $("#border-blinker").css({border: "5px solid white"});
+    textIsBlue = false;
+  } else {		
+    $("#border-blinker").css({border: "5px solid yellow"});	
+    textIsBlue = true;
+  }	
+}, 1000000)
