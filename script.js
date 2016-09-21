@@ -12,10 +12,10 @@ setInterval(function() {
 var borderIsBlue = false
 setInterval(function() {
   if (borderIsBlue) {
-    $("#blue-blinker").css({background: "white"});
-    backgroundIsBlue = false;
+    $("#border-blinker").css({border: "white"});
+    borderIsBlue = false;
   } else {		
-    $("#blue-blinker").css({background: "blue"});	
-    backgroundIsBlue = true;
+    $("#border-blinker").css({border: "blue"});	
+    borderIsBlue = true;
   }	
 }, 100)
