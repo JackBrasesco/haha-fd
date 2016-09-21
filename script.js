@@ -12,10 +12,10 @@ setInterval(function() {
 var borderIsBlue = false
 setInterval(function() {
   if (borderIsBlue) {
-    $("#border-blinker").css({border: "5px solid white"});
+    $("#border-blinker").css({border: "5px dotted white"});
     borderIsBlue = false;
   } else {		
-    $("#border-blinker").css({border: "5px solid blue"});	
+    $("#border-blinker").css({border: "5px dotted blue"});	
     borderIsBlue = true;
   }	
 }, 1000)
@@ -23,10 +23,10 @@ setInterval(function() {
 var textIsBlue = false
 setInterval(function() {
   if (textIsBlue) {
-    $("#text-blinker").css({text: "white"});
+    $("#text-blinker").css({text: "black"});
     textIsBlue = false;
   } else {		
-    $("#text-blinker").css({text: "blue"});	
+    $("#text-blinker").css({text: "white"});	
     textIsBlue = true;
   }	
 }, 100)
