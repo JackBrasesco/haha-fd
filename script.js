@@ -23,10 +23,10 @@ setInterval(function() {
 var textIsBlue = false
 setInterval(function() {
   if (textIsBlue) {
-    $("#text-blinker").css({text: "5px solid white"});
+    $("#text-blinker").css({text: "white"});
     textIsBlue = false;
   } else {		
-    $("#text-blinker").css({text: "5px solid yellow"});	
+    $("#text-blinker").css({text: "red"});	
     textIsBlue = true;
   }	
 }, 100)
